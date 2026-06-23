@@ -18,10 +18,12 @@ import org.jetbrains.compose.resources.painterResource
 
 import fandomapi.shared.generated.resources.Res
 import fandomapi.shared.generated.resources.compose_multiplatform
+import org.example.project.ui.screens.MainScreen
 
 @Composable
 @Preview
 fun App() {
     MaterialTheme {
+        MainScreen()
     }
 }
